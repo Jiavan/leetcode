@@ -33,7 +33,7 @@ var simplifyPath = function(path) {
     path = path.split('/');
 
     for (var i = 0; i < path.length; i++) {
-        p  =path[i];
+        p = path[i];
         if (p === '..') {
             res.pop();
         } else if (p !== '.' && p !== '') {
